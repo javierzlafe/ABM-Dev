@@ -1,17 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Proyecto ABM</title>
+    <meta name="description" content="Una herramienta para gestionar y visualizar datos de usuarios registrados">
+
     <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Gestor de Datos ABM</h1>
+    </header>
+    <!-- Formulario para gestión de datos-->
+    <form>
+        <h2>
+            Formulario de Usuarios
+        </h2>
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" required>
+        </div>
+        <div>
+            <label for="edad">Edad:</label>
+            <input type="number" name="edad" required>
+        </div>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="text" name="email" required>
+        </div>
+        <!-- Cpntenedor para botones -->
+        <div>
+            <!-- Botón para utilizar en acción agregar -->
+            <button type="submit">Agregar</button>
+            <!-- Botón para utilizar en acción editar -->
+            <button type="button">Editar</button>
+            <!-- Botón para utilizar en acción eliminar -->
+            <button type="button">Eliminar</button>
+        </div>
+    </form>
 
-
+        <!-- Contenedor para lista de usuarios registrados-->
+    <div>
+        <h2>Listado de Usuarios</h2>
+        <p></p>
+    </div>
 
     <script src="../logica/main.js"></script>
 </body>
+
 </html>
