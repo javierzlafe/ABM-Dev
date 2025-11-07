@@ -13,39 +13,39 @@
     <link rel="stylesheet" href="../styles/style.css" />
   </head>
   <body>
-    <header>
-      <h1>POCHOCLO</h1>
+    <header class="main-header">
+      <h1 class="main-titulo">POCHOCLO</h1>
     </header>
     <!-- Formulario para gestión de datos-->
-    <form>
-      <h2>Formulario de Usuarios</h2>
-      <div>
+    <form id="form-usuarios" class="formulario">
+      <h2 class="formulario-titulo">Formulario de Usuarios</h2>
+      <div class="formulario-campo-nombre">
         <label for="nombre">Nombre:</label>
-        <input type="text" name="nombre" required />
+        <input id="input-nombre" type="text" name="nombre" required />
       </div>
-      <div>
+      <div class="formulario-campo-edad">
         <label for="edad">Edad:</label>
-        <input type="number" name="edad" required />
+        <input id="input-edad"type="number" name="edad" required />
       </div>
-      <div>
+      <div class="formulario-campo-email">
         <label for="email">E-mail:</label>
-        <input type="text" name="email" required />
+        <input id="input-email"type="text" name="email" required />
       </div>
       <!-- Cpntenedor para botones -->
-      <div>
+      <div class="contenedor btn">
         <!-- Botón para utilizar en acción agregar -->
-        <button type="submit">Agregar</button>
+        <button type="submit"id="btn-agregar" class="btn">Agregar</button>
         <!-- Botón para utilizar en acción editar -->
-        <button type="button">Editar</button>
+        <button type="button"id="btn-editar" class="btn">Editar</button>
         <!-- Botón para utilizar en acción eliminar -->
-        <button type="button">Eliminar</button>
+        <button type="button"id="btn-eliminar" class="btn">Eliminar</button>
       </div>
     </form>
 
     <!-- Contenedor para lista de usuarios registrados-->
-    <div>
-      <h2>Listado de Usuarios</h2>
-      <p></p>
+    <div id="lista-usuarios" class="usario-lista"></div>
+      <h2 class="listado-titulo">Listado de Usuarios</h2>
+      <p id="usarioregistrado" class="usarioregistrado"></p>
     </div>
 
     <script src="../logica/main.js"></script>
