@@ -1,4 +1,4 @@
-/***** Bloque Jere  start       *****/
+/*****Bloque Jere  start*****/
 
 
 
@@ -10,4 +10,4 @@
 
 
 
-/*******     Bloque Jere end     *******/
+/*******Bloque Jere end*******/
