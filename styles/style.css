@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    form, table {
+        width: 95%;
+    }
+    
+    th, td {
+        padding: 8px;
+        font-size: 14px;
+    }
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding-bottom: 40px;
+}
+header {
+    background-color: #35495e;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+/* CONTENEDOR DEL FORMULARIO */
+form {
+    background: white;
+    width: 90%;
+    max-width: 450px;
+    margin: 25px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.15);
+}
+form h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+form div {
+    margin-bottom: 12px;
+}
+/* Centrar los botones del formulario */
+form div:nth-last-child(1) {
+    text-align: center;
+}
+
+form button {
+    margin: 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input {
+    width: 100%;
+    padding: 9px;
+    border-radius: 4px;
+    border: 1px solid #aaa;
+}
+/* BOTONES */
+button {
+    padding: 10px 15px;
+    background-color: #35495e;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #2b3d4b;
+}
+/* SECCIÓN LISTADO */
+div h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* ESTILO GENERAL DE CONTENEDOR EN LISTADO */
+div p, 
+#lista-usuarios, 
+table {
+    width: 90%;
+    max-width: 800px;
+    margin: 10px auto;
+}
+
